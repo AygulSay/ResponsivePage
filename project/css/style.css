@@ -5,6 +5,10 @@ body {
   margin: 0 auto;
   max-width: 1600px; }
 
+.center-box {
+  max-width: 1140px;
+  margin: 0 auto; }
+
 .header {
   min-height: 75px;
   display: flex;
@@ -40,7 +44,7 @@ body {
 .slider {
   height: 764px;
   width: 100%;
-  background: #f1e4e6 url("../img/slider-man.jpg") no-repeat; }
+  background: #f1e4e6 url("../img/slider.jpg") no-repeat 2%; }
 
 .slider__text-block {
   margin-top: 327px;
@@ -61,5 +65,56 @@ body {
 
 .slider__text_pink {
   color: #f16d7f; }
+
+.categories {
+  margin-top: 98px; }
+
+.categories__block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px; }
+
+.categories__for-kids,
+.categories__for-men,
+.categories__for-women {
+  width: 360px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.categories__accesories {
+  height: 180px;
+  width: 100%;
+  background: url("../img/categories__accessories.jpg") no-repeat center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.categories__for-men {
+  background-image: url("../img/categories__men.jpg"); }
+
+.categories__for-women {
+  background-image: url("../img/categories__women.jpg"); }
+
+.categories__for-kids {
+  background-image: url("../img/categories__kids.jpg"); }
+
+.categories__text {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.categories__text_pink {
+  color: #f16d7f;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.categories__box:hover {
+  filter: brightness(50%); }
 
 /*# sourceMappingURL=style.css.map */
